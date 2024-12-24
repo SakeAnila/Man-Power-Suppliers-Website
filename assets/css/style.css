@@ -293,16 +293,16 @@ header .navbar ul li a:hover {
     }
 
     .home .logo {
-        top: 5%; /* Adjust logo for mobile */
+        top: 8%; /* Adjust logo for mobile */
         width: 150px; /* Smaller logo for mobile */
     }
 
     .home .content h2 {
-        font-size: clamp(1.5rem, 2.5vw, 3rem); /* Smaller heading for mobile */
+        font-size: clamp(2rem, 2.8vw, 3.5rem); /* Smaller heading for mobile */
     }
 
     .home .content .description {
-        font-size: clamp(1rem, 1.2vw, 1.8rem); /* Adjust description size */
+        font-size: clamp(1rem, 1.2vw, 2rem); /* Adjust description size */
     }
 }
 
