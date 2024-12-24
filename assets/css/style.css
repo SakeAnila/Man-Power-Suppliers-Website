@@ -271,57 +271,88 @@ header .navbar ul li a:hover {
 }
 /* adjustments */
 /* Responsive Adjustments */
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .home .logo {
-        top: 8%; /* Adjust logo position */
-        width: 180px; /* Smaller logo for tablets */
-    }
-
+@media (max-width: 1200px) {
     .home .content h2 {
-        font-size: clamp(1.8rem, 3vw, 4rem); /* Adjust font size for tablets */
+        font-size: 5rem; /* Slightly reduce font size */
     }
 
     .home .content .description {
-        font-size: clamp(1rem, 1.5vw, 2.5rem); /* Smaller description size */
+        font-size: 3rem; /* Reduce description size */
+        margin-top: 80px;
+    }
+
+    .home .logo {
+        width: 300px; /* Adjust logo size */
+    }
+}
+
+@media (max-width: 992px) {
+    .home .content h2 {
+        font-size: 4rem; /* Further reduce heading size */
+        padding-top: 50px;
+    }
+
+    .home .content .description {
+        font-size: 2.5rem; /* Reduce description text size */
+        margin-top: 60px;
+    }
+
+    .home .logo {
+        width: 250px; /* Reduce logo size */
+    }
+}
+
+@media (max-width: 768px) {
+    .home .content h2 {
+        font-size: 3rem; /* Smaller heading for tablets */
+    }
+
+    .home .content .description {
+        font-size: 2rem; /* Adjust description size */
+        margin-top: 40px;
+    }
+
+    .home .logo {
+        width: 200px; /* Further reduce logo size */
+        top: 10%; /* Adjust logo positioning */
     }
 }
 
 @media (max-width: 576px) {
     .home {
-        padding: 10px;
-    }
-
-    .home .logo {
-        top: 12%; /* Adjust logo for mobile */
-        width: 165px; /* Smaller logo for mobile */
+        padding: 20px; /* Add padding for smaller screens */
     }
 
     .home .content h2 {
-        font-size: clamp(2.5rem, 3.5vw, 3.5rem);; /* Smaller heading for mobile */
+        font-size: 5rem; /* Smaller heading for mobile */
+        padding-top: 30px;
     }
 
     .home .content .description {
-        font-size: clamp(2rem, 3vw, 3rem); /* Adjust description size */
+        font-size: 4rem; /* Mobile-friendly description */
+        margin-top: 30px;
+    }
+
+    .home .logo {
+        width: 150px; /* Reduce logo size for mobile */
+        top: 10%; /* Adjust logo positioning */
     }
 }
 
 @media (max-width: 400px) {
-    .home .logo {
-        top: 4%; /* Slight adjustment for very small devices */
-        width: 120px; /* Smaller logo for tiny screens */
-    }
-
     .home .content h2 {
-        font-size: clamp(1.2rem, 2vw, 2.5rem); /* Small heading */
+        font-size: 2rem; /* Further reduce heading size */
     }
 
     .home .content .description {
-        font-size: 1rem; /* Adjust text for very small devices */
+        font-size: 1.2rem; /* Smaller description text */
+    }
+
+    .home .logo {
+        width: 120px; /* Smaller logo for very small devices */
+        top: 10%;
     }
 }
-
-
 
 /* services section starts */
 .services {
