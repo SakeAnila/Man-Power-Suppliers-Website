@@ -286,6 +286,7 @@ header .navbar ul li a:hover {
     .home .content .description {
         font-size: 2rem; /* Larger description text for mobile */
         margin-top: 40px;
+        margin-bottom: 0px;
     }
 
     .home .logo {
@@ -306,6 +307,7 @@ header .navbar ul li a:hover {
     .home .content .description {
         font-size: 2rem; /* Larger description text for readability */
         margin-top: 40px;
+        margin-bottom: 0px;
     }
 
     .home .logo {
