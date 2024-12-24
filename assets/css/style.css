@@ -278,81 +278,87 @@ header .navbar ul li a:hover {
 
     .home .content .description {
         font-size: 3rem; /* Reduce description size */
-        margin-top: 80px;
+        margin-top: 70px; /* Adjust spacing */
     }
 
     .home .logo {
         width: 300px; /* Adjust logo size */
+        top: 70px; /* Maintain proportional positioning */
     }
 }
 
 @media (max-width: 992px) {
     .home .content h2 {
         font-size: 4rem; /* Further reduce heading size */
-        padding-top: 50px;
+        padding-top: 50px; /* Adjust padding */
     }
 
     .home .content .description {
-        font-size: 2.5rem; /* Reduce description text size */
-        margin-top: 60px;
+        font-size: 2.5rem; /* Adjust description size */
+        margin-top: 50px; /* Reduce gap for smaller screens */
     }
 
     .home .logo {
-        width: 250px; /* Reduce logo size */
+        width: 250px; /* Resize logo */
+        top: 60px; /* Reposition logo */
     }
 }
 
 @media (max-width: 768px) {
     .home .content h2 {
-        font-size: 3rem; /* Smaller heading for tablets */
+        font-size: 3rem; /* Reduce heading size for tablets */
+        padding-top: 40px; /* Adjust padding */
     }
 
     .home .content .description {
-        font-size: 2rem; /* Adjust description size */
-        margin-top: 40px;
+        font-size: 2rem; /* Smaller description size */
+        margin-top: 40px; /* Adjust spacing */
     }
 
     .home .logo {
         width: 200px; /* Further reduce logo size */
-        top: 40px; /* Adjust logo positioning */
+        top: 50px; /* Adjust logo positioning */
     }
 }
 
 @media (max-width: 576px) {
     .home {
-        padding: 20px; /* Add padding for smaller screens */
+        padding: 15px; /* Reduce padding for smaller screens */
     }
 
     .home .content h2 {
         font-size: 2.5rem; /* Smaller heading for mobile */
-        padding-top: 30px;
+        padding-top: 30px; /* Adjust padding */
     }
 
     .home .content .description {
-        font-size: 1.5rem; /* Mobile-friendly description */
-        margin-top: 30px;
+        font-size: 1.8rem; /* Adjust description size */
+        margin-top: 30px; /* Reduce spacing */
     }
 
     .home .logo {
         width: 150px; /* Reduce logo size for mobile */
-        top: 20px; /* Adjust logo positioning */
+        top: 30px; /* Adjust logo position */
     }
 }
 
 @media (max-width: 400px) {
     .home .content h2 {
-        font-size: 2rem; /* Further reduce heading size */
+        font-size: 2rem; /* Smaller heading for very small devices */
+        padding-top: 20px; /* Adjust padding */
     }
 
     .home .content .description {
-        font-size: 1.2rem; /* Smaller description text */
+        font-size: 1.2rem; /* Smaller description size */
+        margin-top: 20px; /* Further reduce spacing */
     }
 
     .home .logo {
         width: 120px; /* Smaller logo for very small devices */
-        top: 10px;
+        top: 15px; /* Adjust logo position */
     }
 }
+
 
 
 /* services section starts */
