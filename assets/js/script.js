@@ -1,4 +1,6 @@
-$(document).ready(function () {
+git remote add origin https://github.com/SakeAnila/Man-Power-Suppliers-Website.git
+git branch -M main
+git push -u origin main$(document).ready(function () {
 
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
