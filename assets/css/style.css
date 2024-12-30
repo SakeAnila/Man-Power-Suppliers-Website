@@ -291,8 +291,8 @@ header .navbar ul li a:hover {
 
     .home .logo {
         width: 200px; /* Ensure the logo is larger and more visible */
-        top: 10%; /* Adjust positioning for visibility */
-        margin-bottom: 20px;
+        top: 9%; /* Adjust positioning for visibility */
+        margin-bottom: 22px;
     }
 }
 
